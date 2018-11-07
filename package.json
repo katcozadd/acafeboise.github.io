@@ -1,0 +1,22 @@
+{
+  "name": "a-cafe-boise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katcozadd/a-cafe-boise.git"
+  },
+  "author": "Kat Cozadd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katcozadd/a-cafe-boise/issues"
+  },
+  "homepage": "https://github.com/katcozadd/a-cafe-boise#readme",
+  "devDependencies": {
+    "node-sass": "4.10.0"
+  }
+}
