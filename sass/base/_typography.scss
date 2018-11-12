@@ -2,7 +2,11 @@ body {
 	font-family: "Ubuntu", sans-serif;
 	font-weight: 300;
 	font-style: normal;
-	padding: 3rem;
+	padding: 4rem;
+}
+
+.heading-primary {
+	visibility: hidden;
 }
 
 .heading-secondary {
@@ -16,6 +20,7 @@ body {
 	font-size: 3rem;
     font-weight: lighter;
     margin-top: 1rem;
+    text-transform: uppercase;
 }
 
 .paragraph {
@@ -30,4 +35,17 @@ body {
     font-size: 2rem;
     padding: 2rem 0;
     line-height: 3rem;
+    margin-bottom: 2rem;
+}
+
+.quote-primary {
+	text-align: center;
+    font-size: 4rem;
+    font-weight: lighter;
+}
+
+.quote-secondary {
+	text-align: right;
+    font-size: 3rem;
+    padding: 3rem 8rem;
 }
