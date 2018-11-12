@@ -15,31 +15,34 @@ img {
   width: 100%;
   height: auto; }
 
+#img-tea {
+  padding-bottom: 2rem; }
+
 body {
   font-family: "Ubuntu", sans-serif;
   font-weight: 300;
   font-style: normal;
-  padding: 4rem; }
+  padding: 5rem; }
 
 .heading-primary {
   visibility: hidden; }
 
 .heading-secondary {
   text-align: center;
-  margin-top: 10rem;
+  margin-top: 6rem;
   font-size: 3rem;
   font-weight: lighter; }
 
 .heading-tertiary {
   font-size: 3rem;
   font-weight: lighter;
-  margin-top: 1rem;
+  margin-top: 2rem;
   text-transform: uppercase; }
 
 .paragraph {
   text-align: center;
   font-size: 2rem;
-  padding: 2rem 10rem 0 10rem;
+  padding: 1% 5%;
   line-height: 3rem; }
 
 .paragraph-redirect {
@@ -96,7 +99,7 @@ a.redirect-btn {
     width: calc(3 * ((100% - 3 * 2rem) / 4) + 2 * 2rem); }
 
 .section-intro {
-  padding: 10rem 0;
+  padding: 4rem 0 6rem 0;
   margin: 0 auto;
   text-align: center; }
 
@@ -111,6 +114,17 @@ a.redirect-btn {
   height: 16rem;
   width: auto;
   position: relative; }
+
+nav.main-nav {
+  text-align: center;
+  padding-top: 2rem; }
+
+nav a {
+  color: #000;
+  text-decoration: none;
+  padding-right: 1rem;
+  font-size: 1.4rem;
+  text-transform: uppercase; }
 
 .section-direct {
   padding: 0; }
