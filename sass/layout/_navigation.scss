@@ -4,9 +4,19 @@ nav.main-nav {
 }
 
 nav a {
-	color: 	#000;
+	color: #000;
 	text-decoration: none;
-	padding-right: 1rem;
+	padding-right: 2rem;
 	font-size: 1.4rem;
 	text-transform: uppercase;
+}
+
+nav.footer-nav {
+	text-align: center;
+	padding-bottom: 4rem;
+
+}
+
+nav.footer-nav a {
+	color: #fff;
 }

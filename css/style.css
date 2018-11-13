@@ -15,14 +15,14 @@ img {
   width: 100%;
   height: auto; }
 
-#img-tea {
+#img-tea, #img-sandwich {
   padding-bottom: 2rem; }
 
 body {
   font-family: "Ubuntu", sans-serif;
   font-weight: 300;
   font-style: normal;
-  padding: 5rem; }
+  padding: 2rem; }
 
 .heading-primary {
   visibility: hidden; }
@@ -70,6 +70,47 @@ a.redirect-btn {
   text-transform: uppercase;
   color: black;
   text-decoration: none;
+  font-weight: normal; }
+
+.footer {
+  background-color: #818285; }
+  .footer__logo {
+    height: 16rem;
+    width: auto;
+    position: relative; }
+
+.footer-col {
+  text-align: center;
+  padding-top: 4rem; }
+
+h5.footer__hours {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #fff;
+  font-weight: lighter;
+  text-transform: uppercase;
+  letter-spacing: .05rem; }
+
+li.hours {
+  color: #fff;
+  font-size: 1.5rem;
+  letter-spacing: .2rem;
+  margin-bottom: .6rem;
+  text-decoration: none;
+  list-style: none; }
+
+p.hours {
+  color: #fff;
+  font-size: 1.5rem;
+  letter-spacing: .2rem;
+  margin-bottom: .8rem;
+  font-weight: normal; }
+
+p.footer__location {
+  color: #fff;
+  font-size: 1.5rem;
+  letter-spacing: .2rem;
+  margin-bottom: .8rem;
   font-weight: normal; }
 
 .row {
@@ -122,9 +163,16 @@ nav.main-nav {
 nav a {
   color: #000;
   text-decoration: none;
-  padding-right: 1rem;
+  padding-right: 2rem;
   font-size: 1.4rem;
   text-transform: uppercase; }
+
+nav.footer-nav {
+  text-align: center;
+  padding-bottom: 4rem; }
+
+nav.footer-nav a {
+  color: #fff; }
 
 .section-direct {
   padding: 0; }

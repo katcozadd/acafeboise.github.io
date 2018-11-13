@@ -1,0 +1,49 @@
+.footer {
+	background-color: #818285;
+
+	&__logo {
+		height: 16rem;
+    	width: auto;
+    	position: relative;
+	}
+}
+
+.footer-col {
+	text-align: center;
+	padding-top: 4rem;
+}
+
+h5.footer__hours {
+	font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #fff;
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: .05rem;
+}
+
+li.hours {
+	color: #fff;
+    font-size: 1.5rem;
+    letter-spacing: .2rem;
+    margin-bottom: .6rem;
+    text-decoration: none;
+    list-style: none;
+}
+
+p.hours {
+	color: #fff;
+    font-size: 1.5rem;
+    letter-spacing: .2rem;
+    margin-bottom: .8rem;
+    font-weight: normal;
+}
+
+p.footer__location {
+	color: #fff;
+    font-size: 1.5rem;
+    letter-spacing: .2rem;
+    margin-bottom: .8rem;
+    font-weight: normal;
+
+}
