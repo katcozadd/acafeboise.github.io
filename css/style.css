@@ -38,6 +38,9 @@ img {
 .roots-col {
   padding-bottom: 4rem; }
 
+.last {
+  padding-bottom: 2rem; }
+
 body {
   font-family: "Ubuntu", sans-serif;
   font-weight: 300;
