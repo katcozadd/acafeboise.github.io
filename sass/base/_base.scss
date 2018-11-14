@@ -22,4 +22,12 @@ img {
 
 #img-tea, #img-sandwich {
 	padding-bottom: 2rem;
+
+	@include respond(tab-port) {
+        padding-bottom: 1rem;
+    }
+}
+
+.roots-col {
+	padding-bottom: 4rem;
 }

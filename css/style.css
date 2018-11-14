@@ -1,3 +1,17 @@
+/*
+0 - 600px:      Phone
+600 - 900px:    Tablet portrait
+900 - 1200px:   Tablet landscape
+[1200 - 1800] is where our normal styles apply
+1800px + :      Big desktop
+$breakpoint arguement choices:
+- phone
+- tab-port
+- tab-land
+- big-desktop
+ORDER: Base + typography > general layout + grid > page layout > components
+1em = 16px
+*/
 *,
 *::after,
 *::before {
@@ -17,12 +31,18 @@ img {
 
 #img-tea, #img-sandwich {
   padding-bottom: 2rem; }
+  @media only screen and (max-width: 56.25em) {
+    #img-tea, #img-sandwich {
+      padding-bottom: 1rem; } }
+
+.roots-col {
+  padding-bottom: 4rem; }
 
 body {
   font-family: "Ubuntu", sans-serif;
   font-weight: 300;
   font-style: normal;
-  padding: 2rem; }
+  padding: 3rem; }
 
 .heading-primary {
   visibility: hidden; }
@@ -114,10 +134,14 @@ p.footer__location {
   font-weight: normal; }
 
 .row {
-  max-width: 130rem;
-  margin: 0 auto; }
+  max-width: 160rem;
+  margin: 0 auto;
+  padding: 0; }
   .row:not(:last-child) {
     margin-bottom: 2rem; }
+    @media only screen and (max-width: 56.25em) {
+      .row:not(:last-child) {
+        margin-bottom: 1rem; } }
   .row::after {
     content: "";
     display: table;
@@ -126,6 +150,13 @@ p.footer__location {
     float: left; }
     .row [class^="col-"]:not(:last-child) {
       margin-right: 2rem; }
+      @media only screen and (max-width: 56.25em) {
+        .row [class^="col-"]:not(:last-child) {
+          margin-right: 0;
+          margin-bottom: 1rem; } }
+    @media only screen and (max-width: 56.25em) {
+      .row [class^="col-"] {
+        width: 100% !important; } }
   .row .col-1-of-2 {
     width: calc((100% - 2rem) / 2); }
   .row .col-1-of-3 {
@@ -179,3 +210,16 @@ nav.footer-nav a {
 
 .section-quote {
   padding: 20rem 0; }
+
+.section-main {
+  padding: 5rem 0 30rem 0; }
+
+.section-roots {
+  padding: 4rem 0 0 0;
+  margin: 0 auto;
+  text-align: center; }
+
+.section-bio {
+  padding: 4rem 0 6rem 0;
+  margin: 0 auto;
+  text-align: center; }
