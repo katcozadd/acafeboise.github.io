@@ -82,6 +82,30 @@ body {
   font-size: 3rem;
   padding: 3rem 8rem; }
 
+.menu-title {
+  font-size: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  text-transform: uppercase;
+  font-weight: lighter;
+  letter-spacing: .1rem; }
+
+.menu-price {
+  font-size: 2rem;
+  font-style: italic;
+  text-transform: lowercase;
+  padding-bottom: 3rem; }
+
+.menu-item {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  list-style: none; }
+
+.menu-description {
+  padding-bottom: 3rem;
+  letter-spacing: .2rem; }
+
 .redirect-btn {
   border: .5px solid #000;
   padding: 1.5rem 4rem; }
@@ -221,5 +245,10 @@ nav.footer-nav a {
 
 .section-bio {
   padding: 4rem 0 6rem 0;
+  margin: 0 auto;
+  text-align: center; }
+
+.section-menu {
+  padding: 4rem 0 0 0;
   margin: 0 auto;
   text-align: center; }
