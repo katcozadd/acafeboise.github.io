@@ -42,7 +42,7 @@ img {
   padding-bottom: 2rem; }
 
 body {
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Cresta", sans-serif;
   font-weight: 300;
   font-style: normal;
   padding: 3rem; }
@@ -56,10 +56,30 @@ body {
   font-size: 3rem;
   font-weight: lighter; }
 
+.heading-secondary2 {
+  text-align: left;
+  font-size: 4rem;
+  font-weight: lighter; }
+
+a {
+  text-decoration: none;
+  color: #000000; }
+
+a:hover {
+  text-decoration: underline; }
+
 .heading-tertiary {
   font-size: 3rem;
   font-weight: lighter;
   margin-top: 2rem;
+  text-transform: uppercase; }
+
+.heading-tertiary2 {
+  text-align: left;
+  font-size: 2rem;
+  margin-top: 4rem;
+  letter-spacing: .2rem;
+  padding-top: 3rem;
   text-transform: uppercase; }
 
 .paragraph {
@@ -67,6 +87,12 @@ body {
   font-size: 2rem;
   padding: 1% 5%;
   line-height: 3rem; }
+
+.paragraph2 {
+  text-align: left;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  font-weight: lighter; }
 
 .paragraph-redirect {
   text-align: left;
@@ -119,8 +145,12 @@ a.redirect-btn {
   text-decoration: none;
   font-weight: normal; }
 
+#map {
+  height: 60rem;
+  width: auto; }
+
 .footer {
-  background-color: #818285; }
+  background-color: #72716F; }
   .footer__logo {
     height: 16rem;
     width: auto;
@@ -207,7 +237,7 @@ p.footer__location {
 
 .header__logo-box {
   text-align: center;
-  margin-top: -6rem; }
+  margin-top: -2rem; }
 
 .header__logo {
   height: 16rem;
@@ -253,5 +283,10 @@ nav.footer-nav a {
 
 .section-menu {
   padding: 4rem 0 0 0;
+  margin: 0 auto;
+  text-align: center; }
+
+.section-contact {
+  padding: 4rem 0 2rem 0;
   margin: 0 auto;
   text-align: center; }
