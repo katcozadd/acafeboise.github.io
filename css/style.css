@@ -29,10 +29,10 @@ img {
   width: 100%;
   height: auto; }
 
-#img-tea, #img-sandwich {
+#img-tea, #img-sandwich, #img-avo-1 {
   padding-bottom: 2rem; }
   @media only screen and (max-width: 56.25em) {
-    #img-tea, #img-sandwich {
+    #img-tea, #img-sandwich, #img-avo-1 {
       padding-bottom: 1rem; } }
 
 .roots-col {
@@ -60,6 +60,18 @@ body {
   text-align: left;
   font-size: 4rem;
   font-weight: lighter; }
+
+.heading-secondary3 {
+  text-align: left;
+  font-size: 6rem;
+  font-weight: 300; }
+
+.paragraph3 {
+  text-align: left;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  font-weight: lighter;
+  padding-top: 2rem; }
 
 a {
   text-decoration: none;
@@ -150,7 +162,8 @@ a.redirect-btn {
   width: auto; }
 
 .footer {
-  background-color: #72716F; }
+  background-color: #72716F;
+  padding-top: 2rem; }
   .footer__logo {
     height: 16rem;
     width: auto;
@@ -290,3 +303,15 @@ nav.footer-nav a {
   padding: 4rem 0 2rem 0;
   margin: 0 auto;
   text-align: center; }
+
+.section-one {
+  padding: 4rem 0 1rem 0; }
+
+.section-two {
+  padding: 4rem 0 6rem 0; }
+
+.section-four {
+  padding: 20rem 0; }
+
+.section-five {
+  padding-bottom: 2rem; }
