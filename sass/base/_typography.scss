@@ -23,24 +23,20 @@ body {
 }
 
 .heading-secondary3 {
-    text-align: left;
-    font-size: 2.9rem;
+    text-align: center;
+    font-size: 3.9rem;
     font-weight: 300;
     padding-bottom: 2rem;
+
+        @include respond(tab-port) {
+            font-size: 3rem;
+    }
 }
 
-
-.paragraph3 {
-    text-align: left;
-    font-size: 1.8rem;
-    line-height: 3rem;
-    font-weight: lighter;
-    padding-top: .5rem;
-}
 
 .signed {
-    text-align: right;
-    padding-bottom: 2rem;
+    text-align: center;
+    padding-bottom: 4rem;
 }
 
 a {
@@ -79,6 +75,22 @@ a:hover {
     font-size: 1.8rem;
     line-height: 3rem;
     font-weight: lighter;
+}
+
+.paragraph3 {
+    text-align: center;
+    font-size: 1.8rem;
+    line-height: 3rem;
+    font-weight: lighter;
+    padding-top: 1rem;
+}
+
+.paragraph4 {
+    text-align: center;
+    font-size: 2.8rem;
+    line-height: 3rem;
+    font-weight: 300;
+    padding-top: .5rem;
 }
 
 .paragraph-redirect {

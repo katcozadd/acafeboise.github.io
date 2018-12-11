@@ -66,21 +66,17 @@ body {
   font-weight: lighter; }
 
 .heading-secondary3 {
-  text-align: left;
-  font-size: 2.9rem;
+  text-align: center;
+  font-size: 3.9rem;
   font-weight: 300;
   padding-bottom: 2rem; }
-
-.paragraph3 {
-  text-align: left;
-  font-size: 1.8rem;
-  line-height: 3rem;
-  font-weight: lighter;
-  padding-top: .5rem; }
+  @media only screen and (max-width: 56.25em) {
+    .heading-secondary3 {
+      font-size: 3rem; } }
 
 .signed {
-  text-align: right;
-  padding-bottom: 2rem; }
+  text-align: center;
+  padding-bottom: 4rem; }
 
 a {
   text-decoration: none;
@@ -113,6 +109,20 @@ a:hover {
   font-size: 1.8rem;
   line-height: 3rem;
   font-weight: lighter; }
+
+.paragraph3 {
+  text-align: center;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  font-weight: lighter;
+  padding-top: 1rem; }
+
+.paragraph4 {
+  text-align: center;
+  font-size: 2.8rem;
+  line-height: 3rem;
+  font-weight: 300;
+  padding-top: .5rem; }
 
 .paragraph-redirect {
   text-align: left;
@@ -312,8 +322,13 @@ nav.footer-nav a {
   margin: 0 auto;
   text-align: center; }
 
+.section-one {
+  padding: 4rem 0 2rem 0; }
+
 .section-two {
-  padding: 4rem 0 0 0; }
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom: 2rem; }
 
 .section-four {
   padding: 20rem 0; }
