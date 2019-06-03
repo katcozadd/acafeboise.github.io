@@ -101,7 +101,7 @@ a:hover {
 .paragraph {
   text-align: center;
   font-size: 2rem;
-  padding: 1% 12%;
+  padding: 1% 5%;
   line-height: 3rem; }
 
 .paragraph2 {
@@ -143,6 +143,7 @@ a:hover {
 
 .menu-title {
   font-size: 3rem;
+  padding-top: 3rem;
   padding-bottom: 1rem;
   text-transform: uppercase;
   font-weight: lighter;
@@ -160,30 +161,9 @@ a:hover {
   letter-spacing: .1rem;
   list-style: none; }
 
-.menu-item2 {
-  font-size: 1.6rem;
-  text-transform: lowercase;
-  letter-spacing: .1rem;
-  list-style: none; }
-
-.last {
-  padding-bottom: 3rem; }
-
 .menu-description {
   padding-bottom: 3rem;
   letter-spacing: .2rem; }
-
-.menu-description2 {
-  padding-top: -1rem;
-  padding-bottom: 1rem;
-  font-size: 1.2rem;
-  letter-spacing: .2rem; }
-
-.menu-specials {
-  font-size: 1.2rem;
-  list-style: none;
-  letter-spacing: .2rem;
-  padding-bottom: 3rem; }
 
 .redirect-btn {
   border: .5px solid #000;
