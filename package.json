@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/katcozadd/a-cafe-boise#readme",
   "devDependencies": {
-    "node-sass": "4.10.0"
+    "node-sass": "4.13.1"
   },
   "dependencies": {
     "body-parser": "1.18.3",
